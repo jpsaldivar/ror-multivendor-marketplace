@@ -13,3 +13,25 @@
  *= require_tree .
  *= require_self
  */
+
+
+ footer { margin-top: 100px; }
+ table, td, th { vertical-align: middle; border: none; }
+ th { border-bottom: 1px solid #DDD; }
+ body { margin: 0; }
+ .navbar {
+     min-height: 38px;
+     background-color: #ECA72C;
+   }
+   .navbar-brand { 
+     font-size: 24px;
+     color: #080357;
+ }
+   .navbar a.brand:hover {
+    color: #fff;
+    background-color: transparent;
+    text-decoration: none;
+   }
+   .container {
+       margin: auto  ;
+   }
